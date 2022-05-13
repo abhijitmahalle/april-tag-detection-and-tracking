@@ -1,7 +1,13 @@
 # April Tag Detection and Image Superimposition
-This repository contains code to detect a custom AR tag which is a fiducial marker. The program detects the corners of the April Tag and superimposed a given image onto the tag. The program can also draw 
+This repository contains code to detect a custom AR tag which is a fiducial marker. The program detects the April Tag using Fast Fourier Transform, detects its corner using Shi Thomasi corner detection. It utilizes the concepts of homography to superimpose an image over the detected April Tag. A virtual cube is also drawn over the tag using the concpets of projection and calibration matrices.
 
-<img src=https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/testudo_superimposed.gif  width=49% height=50%> <img src=https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/virtual_cube.gif  width=49% height=50%>
-<!-- ![](https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/testudo_superimposed.gif ) -->
-
-<!-- ![grab-landing-page](https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/virtual_cube.gif) -->
+### Instructions to run the code:
+Run the following command in the terminal for the corresponding problem:
+```
+python ar_tag_detection.py
+python decode_ar_tag.py
+python superimposition.py
+python virtual_cube.py
+```
+<img src=https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/testudo_superimposed.gif  width=49% height=50%> 
+<img src=https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/virtual_cube.gif  width=49% height=50%>
