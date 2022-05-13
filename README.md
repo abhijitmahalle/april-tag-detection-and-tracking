@@ -9,5 +9,4 @@ python decode_ar_tag.py
 python superimposition.py
 python virtual_cube.py
 ```
-<img src=https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/testudo_superimposed.gif  width=49% height=50%> 
-<img src=https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/virtual_cube.gif  width=49% height=50%>
+<img src=https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/testudo_superimposed.gif  width=49% height=50%> <img src=https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/virtual_cube.gif  width=49% height=50%>
