@@ -40,8 +40,13 @@ Fast Fourier Transform followed by Low pass filter to detect edges of April Tag
 <p align="center">
   <img src=https://github.com/AbhijitMahalle/AR_tag_detection/blob/master/results/fft.png>
 <p align="center">
+  
 ### Part 1
-<img src=https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/testudo_superimposed.gif  width=49% height=50%> 
-
+<p align="center">
+  <img src=https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/testudo_superimposed.gif> 
+<p align="center">
+  
 ### Part 2
-<img src=https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/virtual_cube.gif  width=49% height=50%>
+<p align="center">
+  <img src=https://github.com/abhijitmahalle/AR_tag_detection/blob/master/gif/virtual_cube.gif>
+<p align="center">
