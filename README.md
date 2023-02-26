@@ -16,25 +16,29 @@ The project consists of two parts:
 ### Approch to part 2
 1. Projective transformation in 3-D was used to project the points of a 3-D cube onto a 2-D video frame. The homography matrix was computed for the 3-D points unlike the 2-D ones in the part 1.
 
-## Dependencies
+## Requirement:
   - Python 2.0 or above
+
+## Dependencies:
   - OpenCV
-## Instructions to run the code
+  - NumPy
+  
+## Instructions to run the code:
 Run the following command in the terminal for the corresponding problem.
 
-To detect edges of the April Tag using FFT
+To detect edges of the April Tag using FFT:
 ```
 python ar_tag_detection.py
 ```
-To find the orientation of the April Tag by decoding it
+To find the orientation of the April Tag by decoding it:
 ```
 python decode_ar_tag.py
 ```
-To superimpose an image over the April Tag
+To superimpose an image over the April Tag:
 ```
 python superimposition.py
 ```
-To draw 3-D virtual cube over the April Tag
+To draw 3-D virtual cube over the April Tag:
 ```
 python virtual_cube.py
 ```
