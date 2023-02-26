@@ -1,3 +1,5 @@
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # April Tag Detection and Image Superimposition
 This repository contains code to detect a custom April tag which is a fiducial marker. The program detects the April Tag using Fast Fourier Transform, detects its corner using Shi Thomasi corner detection. It utilizes the concepts of homography to superimpose an image over the detected April Tag. A virtual cube is also drawn over the tag using the concpets of projection and calibration matrices. Note that no inbuilt OpenCV functions were used except for FFT and Shi Thomasi.
 
@@ -14,6 +16,9 @@ The project consists of two parts:
 ### Approch to part 2
 1. Projective transformation in 3-D was used to project the points of a 3-D cube onto a 2-D video frame. The homography matrix was computed for the 3-D points unlike the 2-D ones in the part 1.
 
+## Dependencies
+  - Python 2.0 or above
+  - OpenCV
 ## Instructions to run the code
 Run the following command in the terminal for the corresponding problem.
 
